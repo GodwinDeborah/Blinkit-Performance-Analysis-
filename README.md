@@ -68,6 +68,7 @@ The dataset was imported using SQL Server’s Flat File Import Wizard to efficie
 -	Ensured consistency for aggregation and reporting
 
 ## 8. KPIs & Analysis
+
 ### Key Performance Indicators (KPIs)
 The following KPIs were developed to measure business performance:
 -	Total Sales → Overall revenue generated (reported in millions)
@@ -76,10 +77,12 @@ The following KPIs were developed to measure business performance:
 -	Average Rating → Customer satisfaction indicator
 
 ### Analysis 
-### Product-Level Analysis
+
+#### Product-Level Analysis
 -	Evaluate how fat content impacts sales performance
-Identify top-performing item categories by revenue contribution
-### Outlet Performance Analysis
+- Identify top-performing item categories by revenue contribution
+
+#### Outlet Performance Analysis
 -	Analyze sales distribution across outlet types and sizes
 -	Examine performance differences by location type
 -	Evaluate sales trends by establishment year
@@ -97,6 +100,18 @@ Identify top-performing item categories by revenue contribution
 -	Strengthen availability and promotion of top-performing categories (Fruits & Vegetables, Snacks, Household, Frozen, Dairy) to maximize revenue contribution.
 
 ## 11. Assumptions & Limitations
+
+### Assumptions
+- The dataset accurately represents Blinkit sales transactions and outlet performance during the observed period.
+- Sales values and customer ratings are assumed to be complete, consistent, and correctly recorded across all records.
+- Standardized categories such as item fat content were assumed to represent the intended business classifications after cleaning and transformation.
+- Customer ratings are assumed to reflect overall customer satisfaction and purchasing experience.
+
+### Limitations
+- The dataset does not include customer-level identifiers, limiting deeper customer behavior and segmentation analysis.
+- External business factors such as promotions, discounts, seasonality, and supply chain disruptions were not available for analysis.
+- The analysis focuses primarily on sales and ratings data and does not include profitability, operational costs, or inventory metrics.
+- Insights are based on the provided historical dataset and may not fully represent current or future business performance.
 
 ## 12. Future Enhancements
 -	Introduce time-series forecasting to predict future sales trends and improve demand planning. 
